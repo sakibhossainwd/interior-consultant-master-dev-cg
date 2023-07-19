@@ -52,6 +52,7 @@ main{
     position: absolute;
     margin-top: -13%;
     margin-left: 35%;
+    border-radius: 10px;
 }
 .designer h2{
     margin-top: 5%;
