@@ -17,6 +17,7 @@ main{
 .content-container{
     display: flex;
     gap: 5%;
+    justify-content: space-between;
 }
 .content{
     display: flex;
@@ -64,4 +65,109 @@ main{
 }
 .name h5{
     font-weight: 300;
+}
+
+@media only screen and (max-width: 1400px){
+    .details p{
+        font-size: 2vh;
+    }
+    .designer h2{
+        font-size: 2vh;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .details h1{
+        font-size: 4vh;
+    }
+}
+@media only screen and (max-width: 992px){
+    .details h1{
+        font-size: 3vh;
+    }
+    .details p{
+        font-size: 1.5vh;
+    }
+    .name h4{
+        font-size: 1.5vh;
+    }
+    .name h5{
+        font-size: 1vh;
+    }
+    .designer h2{
+        font-size: 1.5vh;
+    }
+}
+@media only screen and (max-width: 768px){
+    .details h1{
+        font-size: 2.5vh;
+    }
+    .details p{
+        font-size: 1vh;
+    }
+    .img-box img{
+        width: 80%;
+    }
+    .designer{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .img{
+        box-sizing: border-box;
+        padding: 0%;
+        margin-right: -20px;
+    }
+    .img img{
+        width: 50%;
+        border-radius: 50px;
+    }
+    .name{
+        margin-top: 5%;
+    }
+    .name h4{
+        font-size: 1vh;
+    }
+    .name h5{
+        font-size: 1vh;
+    }
+    .designer h2{
+        font-size: 1vh;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .content-container{
+        display: inline;
+        gap: 5%;
+        justify-content: space-between;
+    }
+    .details h1{
+        font-size: 5vh;
+    }
+    .details p{
+        font-size: 2vh;
+        font-weight: 300;
+        margin-top: 3%;
+    }
+    .img-box{
+        margin-top: 10%;
+    }
+    .img-box img{
+        width: 100%;
+    }
+    .designer{
+        width: 60%;
+        margin-left: 30%;
+    }
+    .img img{
+        width: 50%;
+    }
+    .name h4{
+        font-size: 2vh;
+    }
+    .name h5{
+        font-size: 1.5vh;
+    }
+    .designer h2{
+        font-size: 2vh;
+    }
 }
